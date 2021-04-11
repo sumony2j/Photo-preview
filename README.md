@@ -1,3 +1,3 @@
-# Photo-preview-miniproject-
+# Photo preview miniproject
 
-A miniproject (Animated photo-preview)using html,css 
+A miniproject (Animated photo-preview) using html,css,javascript
