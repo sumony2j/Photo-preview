@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PHOTO GALLERY</title>
+    <meta charset="utf-8" name="photo-Gallery">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <style>
+        body{
+               background-color: dimgray;
+               font-family:cursive;
+               text-align: center;
+               font-size: 20px;
+            }
+        header{
+                border: 3px solid black;
+                color: aliceblue;
+                background-color: black
+              }
+        .class1{
+            display: inline-flex;
+            position: relative;
+            top:60px;
+            }  
+        img:not(#id2){
+             width: 200px;
+             height: 100px;
+             border: 10px solid black;
+             border-radius: 10px;
+             margin: 5px;
+                         }
+        img:not(#id2):hover{
+                   border-color: blue;
+                           }
+           #id2{
+              position: relative;
+              top:100px;
+              width: 600px;
+              height: 300px;
+              border: 10px solid black;
+              image-resolution:from-image;
+              border-radius: 10px; 
+                }
+       
+    </style>
+  </head>
+  <body>
+      <header><h1><em><u>PHOTO-PREVIEW</u></em></h1></header>
+     <section>
+       <div class="class1 container-fluid">
+        <div><img onmouseover="id2.src=id3.src" src="img/index.jpeg" title="picture1" id="id3" class="img-fluid"></div>
+        <div><img onmouseover="id2.src=id4.src" src="img/index1.jpeg" title="picture2" id="id4" class="img-fluid"></div>
+        <div><img onmouseover="id2.src=id5.src" src="img/index2.jpeg" title="picture3" id="id5" class="img-fluid"></div>
+        <div><img onmouseover="id2.src=id6.src" src="img/index3.jpeg" title="picture4" id="id6" class="img-fluid"></div>
+        <div><img onmouseover="id2.src=id7.src" src="img/images.jpeg" title="picture5" id="id7" class="img-fluid"></div>
+        <div><img onmouseover="id2.src=id8.src" src="img/393735.jpg" title="picture6" id="id8" class="img-fluid"></div>
+       </div> 
+     </section>
+     <section>
+       <div class="container-fluid" >
+         <img id="id2" src="img/index.jpeg" title="LIFE IS BEAUTIFUL" class="img-fluid">     
+       </div> 
+     </section>
+  </body>
+</html>
