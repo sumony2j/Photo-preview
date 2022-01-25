@@ -18,4 +18,4 @@ Tools & programming languages used  :
 
 Step To Run The Website  :
 
-				Run the ./Photo-preview/Project/Website.html file on any browser
+				./Photo-preview/Project/Website.html 
